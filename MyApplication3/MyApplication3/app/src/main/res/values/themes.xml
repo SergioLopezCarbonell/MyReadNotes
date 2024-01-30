@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Define tus colores aquí -->
+    <color name="azul">#87CEFA</color>
+    <color name="lila">#A565FD</color>
+    <color name="blanco">#FFFFFF</color>
+
+    <!-- Base application theme. -->
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color (Barra superior, ActionBar). -->
+        <item name="colorPrimary">@color/azul</item>
+        <!-- Tono más oscuro para la barra superior. -->
+        <item name="colorPrimaryVariant">#000000</item>
+        <!-- Texto claro sobre el color primary. -->
+        <item name="colorOnPrimary">@color/blanco</item>
+
+        <!-- Secondary brand color (Botones, resaltados). -->
+        <item name="colorSecondary">@color/lila</item>
+        <!-- Tono más oscuro para algunos elementos secundarios. -->
+        <item name="colorSecondaryVariant">@color/lila</item>
+        <!-- Texto oscuro sobre el color secondary. -->
+        <item name="colorOnSecondary">@color/blanco</item>
+
+        <!-- Color de fondo de la ventana de la aplicación. -->
+        <item name="android:windowBackground">#FFFFFF</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="cancelButton" parent="Widget.AppCompat.Button">
+        <!-- Fondo y texto para un botón de cancelar. -->
+        <item name="android:background">@color/rojo_cancelar</item>
+        <item name="android:textColor">@color/rojo_cancelar</item>
+    </style>
+
+    <style name="BottomNavigationViewStyle" parent="Widget.Design.BottomNavigationView">
+        <!-- Color de fondo del BottomNavigationView -->
+        <item name="android:background">@color/background_color</item>
+        <!-- Color de los íconos -->
+        <item name="itemIconTint">@color/icon_color</item>
+        <!-- Color del texto -->
+        <item name="itemTextColor">@color/text_color</item>
+        <!-- Color del indicador (línea que indica la pestaña activa) -->
+        <item name="itemRippleColor">@color/pressed_color</item>
+    </style>
+
+
+    <style name="Theme.MyApplication.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+    </style>
+
+    <style name="TransparentDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- ... Otras definiciones de estilo ... -->
+
+    <color name="verde_primario">#8BC34A</color>
+    <color name="verde_primario_variante">#689F38</color>
+    <color name="azul_secundario">#2196F3</color>
+    <color name="azul_secundario_variante">#1976D2</color>
+    <color name="gris_oscuro">#424242</color>
+    <color name="gris_claro">#F5F5F5</color>
+    <color name="rojo_cancelar">#FF0000</color>
+
+    <color name="background_color">#A565FD</color>
+    <color name="icon_color">#FFFFFF</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="pressed_color">#B711E4</color>
+
+</resources>
